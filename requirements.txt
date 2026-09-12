@@ -1,0 +1,25 @@
+# Core LangChain
+langchain
+langchain-core
+
+# Gemini / Google Generative AI
+langchain-google-genai
+
+# Web search
+langchain-tavily
+
+# Web scraping / HTML parsing
+beautifulsoup4
+requests
+
+# Environment variables
+python-dotenv
+
+# Structured data / validation
+pydantic
+
+# Optional: clean terminal output
+rich
+
+# Optional: UI for the research assistant
+streamlit
