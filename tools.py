@@ -41,4 +41,3 @@ def scrape_webpage(url: str) -> str:
         return soup.get_text(separator=' ', strip=True)[:5000]  # Return first 5000 characters of text
     except Exception as e:
         return f"An error occurred while scraping the webpage: {str(e)}"
-print(scrape_webpage.invoke("https://www.businessinsider.com/high-paying-growing-jobs-very-high-exposure-to-ai-2026-9"))
